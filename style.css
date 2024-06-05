@@ -1,0 +1,37 @@
+body{
+  font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0f0909;
+}
+
+.container{
+  text-align: center;
+  padding: 20px;
+    background: rgb(231, 221, 221);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 80%;
+}
+
+
+button {
+  padding: 10px 20px;
+  background-color: rgb(161, 161, 192);
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+#qr-code{
+  padding: 20px;
+}
